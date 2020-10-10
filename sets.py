@@ -16,5 +16,6 @@
 #set2 = {1,2,3}
 #set3 = set1.union(set2) #returns new set containing both sets
 #set1.update(set2)
-thisset = set(("apple","banana","cherry"))
+#thisset = set(("apple","banana","cherry"))
 print(thisset)
+
