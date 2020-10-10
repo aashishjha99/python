@@ -17,5 +17,11 @@
 #set3 = set1.union(set2) #returns new set containing both sets
 #set1.update(set2)
 #thisset = set(("apple","banana","cherry"))
-print(thisset)
+#print(thisset)
+
+x = { "aaple","banana","cherry"}
+y = {"google","microsoft","aaple"}
+#z = y.difference(x) # retuers the same element that exist only in y
+x.difference_update(y)
+print(x)
 
